@@ -9,6 +9,8 @@ set(PATH_TO_INCLUDES
 
 set(app_SOURCES  
     ./src/main.cpp
+    ./src/client.cpp
+    ./src/subject.cpp
    )
 
 add_executable(${PROJECT_NAME} ${app_SOURCES})

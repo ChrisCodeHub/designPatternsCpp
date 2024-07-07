@@ -1,3 +1,3 @@
 docker run -it \
-           -v ./src:/host/  \
+           -v ./:/host  \
            design-pattern-builder
